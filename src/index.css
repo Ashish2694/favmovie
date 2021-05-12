@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  
+}
+
+*{ font-family: 'Montserrat', sans-serif;
+  font-family: 'Girassol', cursive;
+ 
+}
+html{
+  font-size: 62.5%;
+}
+
+.header{
+  padding:1.0rem;
+  width: 100%;
+  font-size: 3.0rem;
+  text-align: center;
+  background-image:linear-gradient(black,#95a1a5);
+  text-transform: uppercase;
+  font-size: 2.0rem;
+  border: black;
+  color: rgb(80, 2, 6);
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: black;
+  text-shadow: .2rem .2rem rgb(245, 242, 242);
+}
+.h1{
+  font-size: 3.0rem;
+}
+
+.container{
+  background-color:#95a1a5 ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  padding:2.0rem;
+  text-align: center;
+  background-color:  rgba(158, 10, 10, 0.527);
+  text-transform: uppercase;
+  font-size: 2.0rem;
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: black;
+  text-shadow: .2rem .2rem rgb(245, 242, 242);
+}
+.cards{
+  margin: 5.0rem 8.0rem;
+  position: relative;
+  background-color: rgb(182, 181, 181) ;
+  width: 25rem;
+  height: auto;
+  border-radius: 2.0rem;
+  box-shadow: 15px 13px 15px -7px black;
+}
+.cards:hover{
+  transform: scale(1.2);
+}
+.card_img{
+  text-align: center;
+  height: 30.0rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 2.0rem;
+}
+.card_info{
+  text-align: center;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+  height: auto;
+}
+
+.card_title{
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.card_category{
+  font-size: 1.5rem;
+}
+button{
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color:green ;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  background-image:linear-gradient(rgb(222, 227, 231),rgb(247, 243, 243));
+  height: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  width: 18rem;
+  position: relative;
+  cursor:pointer;
+  box-shadow: 10px 5px 8px -7px black;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-radius: .5rem;
+
+}
+button:hover{
+  background-image:linear-gradient(white,rgb(203, 205, 209));
+  color: red;
+   
+}
